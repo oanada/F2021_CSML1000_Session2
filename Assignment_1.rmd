@@ -1,11 +1,16 @@
 ---
 title: "Assignment #1"
 output: html_document
-author: Oana Damian
+author: Luiz Carvalho, Manoj Soman Nair, Nafiseh Davari, Oana Damian, Stanislav Taov
+date: 2020-Feb
 ---
 
+School of Continuing Studies, ML certificate, Course #: CSML1000-004-O-W20 
+
 ## THE BUSINESS QUESTION
-  !!!!!! please write this down well
+
+  !!!!!! MANOJ  please complete this section
+  
 A Brazilian food chain with more than 400 stores in Brazil has difficulties in forecasting daily of the production of specifc various food clases.
 
 The business started with the city of São Paulo which alone responds for almost 40% of the sales(th ebusiness expects that if the process works for this city ir can be easily deployed it in the others).
@@ -41,16 +46,18 @@ library('dplyr') # data manipulation
 
 ```
 
-## Load data
+
+
+## ANNEX1: DATA - Descriptive statistics
+Each variable, explanatory and explained are analyzed w.r.t distribution and time series properties
+
+### Load data
 ```{r, message=FALSE, warning=FALSE,echo = FALSE}
 DataAll <- read.csv('C:/Users/damiano/Desktop/ML_C1/Assignment1/data-06.csv', stringsAsFactors = F)
 #check data str(DataAll)
 
 ```
 
-## ANNEX1: DATA - Descriptive statistics
-
-Each variable, explanatory and explained are analyzed w.r.t distribution and time series properties
 
 ```{r,DataAll, echo = FALSE}
 #summary(DataAll[,)])
@@ -69,11 +76,17 @@ acf(DataAll[,c(Column_Names[idx_var])],main="Autocorrelation",plot = TRUE,demean
 }
 
 ```
+
+
 ## ANNEX2: MODELS - The regression model
 insert model results here
+
 
 ## ANNEX3: MODELS - The Cluster model
 insert model results here
 
+
 ## ANNEX3: MODELS - The xxx model
 insert model results here
+
+
