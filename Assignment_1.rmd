@@ -1,7 +1,7 @@
 ---
 title: "Assignment #1"
 output: html_document
-author: Luiz Carvalho, Manoj Soman Nair, Nafiseh Davari, Oana Damian, Stanislav Taov
+author:  Oana Damian 
 date: 2020-Feb
 ---
 
