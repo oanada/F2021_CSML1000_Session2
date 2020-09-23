@@ -1,0 +1,57 @@
+---
+title: "Asignment1_proposal2_OD"
+author: "Oana Damian"
+date: "9/22/2020"
+output: html_document #pdf_document   #it needs LaTeX for pdf When you click the **Knit** button a html/pdf document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE) # echo = TRUE parameter to alow printing of the R code 
+```
+
+# Proposal 2. Forecasting Natural Gas Price using US temparatures and Natural Gas Inventories 
+
+## Data sources
+
+US temperature data
+
+Description: <https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/cdus/degree_days/>
+
+Time series : <ftp://ftp.cpc.ncep.noaa.gov/htdocs/degree_days/weighted/daily_data/2020/>
+
+
+US Natural Gas Storage Dashboard
+
+EIA Dashboard: <https://www.eia.gov/naturalgas/storage/dashboard/>
+
+EIA Description: <https://www.eia.gov/naturalgas/storage/dashboard-content/notes_sources.pdf>
+
+
+
+
+
+## Business case
+
+Detect if the curent natural gas price levels are aligned with Natural Gas inventories and US temperatures
+
+
+Challenges:
+....
+
+
+## Some graphs
+
+```{r, echo=FALSE}
+#library(quantmod)
+#library(stats)
+#getSymbols.FRED('FIN2140AAAMT',env=globalenv())
+#getSymbols.FRED('FIN1020AAAMT',env=globalenv())
+#getSymbols.FRED('FINGT80AAAMT',env=globalenv())
+
+#plot(FIN2140AAAMT)
+#plot(FIN1020AAAMT)
+#plot(FINGT80AAAMT)
+
+```
+
+
